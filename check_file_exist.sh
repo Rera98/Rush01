@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/bin/bash 
 #Demande à l'utilisateur d'entrer un nom de fichier
 echo "Entrez le nom du fichier :" 
 read 'filename'
