@@ -1,9 +1,8 @@
 #!/bin/bash
-# Ce script vérifie si un fichier donné existe ou non 
-#Demande à l'utilisateur d'entrer un nom de fichier
-echo "Entrez le nom du fichier :"
 
- read  'filename'
+#Demande à l'utilisateur d'entrer un nom de fichier
+echo "Entrez le nom du fichier :" 
+read 'filename'
 # Vérifie si le fichier existe et est un fichier régulier
 if [ -f "$filename" ]; then
 
