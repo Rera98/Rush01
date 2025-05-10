@@ -5,10 +5,10 @@
 # Vérifie si le fichier existe et est un fichier régulier
 if [ -f "$filename" ]; then 
   echo
-  echo "Le fichier '$filename' existe"
+  echo "Le fichier '$filename' existe."
   echo
 else
   echo
-  echo "Le fichier '$filename' n'existe pas" 
+  echo "Le fichier '$filename' n'existe pas." 
   echo
 fi
