@@ -6,7 +6,9 @@
 if [ -f "$filename" ]; then 
   echo
   echo "Le fichier '$filename' existe"
+  echo
 else
   echo
   echo "Le fichier '$filename n'existe pas" 
+  echo
 fi
