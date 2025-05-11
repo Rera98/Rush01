@@ -4,7 +4,7 @@ echo
 read -p "Entrez le nom du fichier : " filename
 
 # Vérifie si le fichier existe et est un fichier régulier
-echo
+
 if [ -f "$filename" ]; then
   echo "Le fichier '$filename' existe."
 else
