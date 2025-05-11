@@ -1,7 +1,7 @@
 #!/bin/bash 
 # Demande à l'utilisateur de saisir le nom du fichier
-echo
-read -p "Entrez le nom du fichier : " filename
+echo "Entrez le nom du fichier :"
+read filename
 
 # Vérifie si le fichier existe et est un fichier régulier
 
